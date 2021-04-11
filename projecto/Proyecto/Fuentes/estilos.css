@@ -1,0 +1,197 @@
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;   
+}
+
+
+h2{
+    font-family: 'BlockBeCnPro', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 1; 
+    text-align: center;
+}
+
+.textoC
+{
+    margin-top: 8%;
+    font-size: 60px;
+    width: 100%;
+    padding: 3%;
+    height: 1050%; 
+
+    border: 10px solid orange;
+    background-color: orange;
+}
+
+
+
+.details-hamburguer{
+    position: absolute;
+    right: 1200px;
+    bottom: -30px;
+    z-index: -10;
+}
+
+.details-nuggets{
+    position: absolute;
+    left: 1100px;
+    bottom: -10px;
+    z-index: -10;
+    clip-path: inset(0 40% 0 0);
+
+}
+
+.textoP
+{
+    margin-top: 2%;
+    font-size: 60px;
+    width: 100%;
+    padding: 5%;
+    height: 1050%; 
+
+    border: 17px solid #f6ad04;
+    background-color: #f5cf0e;
+}
+
+.carousel, .carousel-inner > .item > img {
+    
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 19%;
+  }
+
+
+
+body{
+    background-color: rgb(250, 192, 1);
+    
+}
+
+.menuI{
+    
+    z-index: 1;
+    background-color: #E59C26;
+    
+    
+    width: 100%;
+    color: white;
+    
+    
+}
+
+
+.menu{
+    width: 80%;
+    padding: 5%;
+    height: 80%;   
+}
+
+.hamburguer{
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+.comida
+{
+    width: 85%;
+    padding: 5%;
+    height: 100%;   
+
+}
+
+.Nmenu{
+    text-align: center;
+    position: relative;
+    color: #000000;
+   font-size: 40px;
+    text-decoration: none;
+
+}
+
+.link-nav{
+    font-size: larger;
+    color: white;
+}
+
+.Nmenu::before{
+    content: "";
+    background: orangered;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+
+.Nmenu::after{
+    content: "";
+    background: orangered;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+
+
+
+
+.ofertas{
+   
+    margin-left: 1%;
+    margin-top: 2%;
+    text-align: center;
+    padding: auto;
+   
+}
+.Iofertas{
+    max-width: 200px;
+    width: 100%;
+}
+
+hovers-------------------------------------
+
+.link-nav:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.logos-end:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+
+}
+
+.Nmenu:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.Nmenu:hover::before{
+    width: 100%;
+}
+
+.Nmenu:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .details-hamburguer{
+        display: none;
+    }
+    .details-nuggets{
+        display: none;
+    }
+
+}
