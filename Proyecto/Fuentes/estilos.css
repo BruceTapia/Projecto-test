@@ -148,14 +148,14 @@
 .details-hamburguer{
     position: absolute;
     right: 85%;
-    bottom: 20%;
+    bottom: 250px;
     z-index: -10;
 }
 
 .details-nuggets{
     position: absolute;
     left: 69%;
-    bottom: -19%;
+    bottom: -170px;
     z-index: -10;
     clip-path: inset(0 40% 0 0);
 
